@@ -20,8 +20,8 @@ nav {
     padding: 20px 10px;
   }
   .logo {
-    max-height: 200px;
-    padding-top: 20px;
+    max-height: 120px;
+  
   }
   .navbar ul {
     list-style: none;
@@ -30,7 +30,7 @@ nav {
     margin-left: 0px;
     margin-right: 60px;
     padding-top: 0px;
-    font-size: 30px;
+    font-size: 20px;
   }
   .navbar li {
     margin-top: 30px;
@@ -59,17 +59,20 @@ nav {
     color: #afc58e;
     text-align: right;
     font-family: Comic sans MS;
-    font-size: 90px;
+    font-size: 45px;
     padding-right: 250px;
  
     margin-left: 50%;
   }
-  
+  .skills-container{
+ 
+  margin-top: 0%;
+  }
   .home p{
     color: #afc58e;
     text-align: right;
     font-family: Comic sans MS;
-    font-size: 75px;
+    font-size: 25px;
     padding-right: 250px;
    
     margin-left: 50%;
@@ -91,9 +94,18 @@ nav {
 
 
   .col{
-   
+    margin-top: 0;
     float: right;
     width: 33.33%;
+    background-color: aqua;
+    margin-bottom: 150px;
+  }
+
+  .col-projects{
+    margin-top: 0;
+    float: right;
+    width: 33.33%;
+    margin-bottom: 150px;
   }
    
   .col p{
@@ -101,6 +113,15 @@ nav {
     font-family:Comic sans MS;
     
    
+  }
+
+  .contact-container{
+
+    text-align: center;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;      
+    
   }
 
 
