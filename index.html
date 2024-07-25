@@ -30,7 +30,7 @@
 	   			<h1>I'm Realeboga Matlakala.</h1>
 
 	   			<p class="intro-position">
-	   				<span>Full-Stack Web Developer</span>
+	   				<span>Full-Stack Developer</span>
 	   				
 	   			</p>
 
@@ -115,24 +115,24 @@
 
 				<ul class="skill-bars">
 				   <li>
-				   	<div class="progress percent90"><span>90%</span></div>
-				   	<strong>HTML5</strong>
+				   	<div class="progress percent100"></div>
+				   	<strong>Angular</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
-				   	<strong>CSS3</strong>
+				   	<div class="progress percent100"></div>
+				   	<strong>Python</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent70"><span>70%</span></div>
+				   	<div class="progress percent100"></div>
 				   	<strong>JavaScript</strong>
 				   </li>
 				   <li>
-				   	<div class="progress percent95"><span>95%</span></div>
+				   	<div class="progress percent100"></div>
 				   	<strong>NodeJS</strong>
 				   </li>
 				   <li>
 
-				   	<div class="progress percent75"><span>75%</span></div>
+				   	<div class="progress percent100"></div>
 				   	<strong>ReactJS</strong>
 				   </li>
       
@@ -145,7 +145,7 @@
    	<div class="row button-section">
    		<div class="col-twelve">
    			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-   			<a href="./images/RHW MATLAKALA.pdf (1).pdf" title="Download CV" class="button button-primary">Download CV</a>
+   			<a href="./images/RHW_Matlakala_CV.pdf" title="Download CV" class="button button-primary">Download CV</a>
    		</div>   		
    	</div>
 
@@ -192,7 +192,7 @@
 
 					<div class="timeline-content">
 						<h4>Winners of City of Cape Town Hackathon 2024</h4>
-						<p>Conceptualised an easy-to-use web application for residents that will enable them to search for jobs, <br> as well as see what  City projects are currently on the go. We are mostly targeting the unemployed and positioning <br> the City's platform as the go-to-place for jobseekers <br><br>
+						<p>Conceptualised an easy-to-use web application for residents that will enable them to search for jobs,  as well as see what  City projects are currently on the go. We are mostly targeting the unemployed and positioning the City's platform as the go-to-place for jobseekers <br><br>
 							Developed using HTML, CSS, JavaScript, NodeJS & MongoDB
 					</p>
 					</div>
@@ -412,7 +412,7 @@
 
 	         	<div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/eCommerce.avif" alt="Makasana">
+	               	<img src="/images/maka12.PNG" alt="Makasana">
 	                  <a href="#modal-01" class="overlay">	                  	           
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
@@ -558,7 +558,7 @@
 
 					   <div class="description-box">
 					      <h4>Makasana eCommerce Application</h4>		      
-					      <p>Makasana Online Shopping is targeted at small and local businesses around South Africa. <br/> <br/>
+					      <p>Makasana Mobile Online Shopping is targeted at small and local businesses around South Africa. <br/> <br/>
 							Developed using: Angular, NodeJS, MongoDB and Amazon S3</p>
 
 					      <div class="categories">Web Development</div>			               
@@ -566,7 +566,7 @@
 
 			         <div class="link-box">
 			            <a href="https://github.com/realebogamatlakala">Details</a>
-						<a href="https://makasana-app.vercel.app/makasana">Follow link</a>
+						<a href="https://makasana.vercel.app">Follow link</a>
 					      <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
@@ -729,6 +729,7 @@
 
 			<div class="link-box">
 			   <a href="https://github.com/realebogamatlakala">Details</a>
+			   <a href="https://citi-builder.netlify.app">Follow link</a>
 				 <a href="#" class="popup-modal-dismiss">Close</a>
 			</div>		      
 
@@ -998,35 +999,33 @@
    		<div class="col-twelve">
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="">
-      			<fieldset>
-
-                  <div class="form-field">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                  </div>
-                  <div class="form-field">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	               </div>
-                  <div class="form-field">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
-                  <div class="form-field">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>                      
-                 <div class="form-field">
-                     <button class="submitform">Submit</button>
-                     <div id="submit-loader">
-                        <div class="text-loader">Sending...</div>                             
-       				      <div class="s-loader">
-								  	<div class="bounce1"></div>
-								  	<div class="bounce2"></div>
-								  	<div class="bounce3"></div>
-								</div>
+            <form name="contactForm" id="contactForm" method="post" action="inc/sendEmail.php">
+				<fieldset>
+					<div class="form-field">
+						<input name="contactName" type="text" id="contactName" placeholder="Name" minlength="2" required>
+					</div>
+					<div class="form-field">
+						<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" required>
+					</div>
+					<div class="form-field">
+						<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject">
+					</div>                       
+					<div class="form-field">
+						<textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10" cols="50" required></textarea>
+					</div>                      
+					<div class="form-field">
+						<button class="submitform">Submit</button>
+						<div id="submit-loader">
+							<div class="text-loader">Sending...</div>                             
+							<div class="s-loader">
+								<div class="bounce1"></div>
+								<div class="bounce2"></div>
+								<div class="bounce3"></div>
 							</div>
-                  </div>
-
-      			</fieldset>
-      		</form> <!-- Form End -->
+						</div>
+					</div>
+				</fieldset>
+			</form>
 
             <!-- contact-warning -->
             <div id="message-warning">            	
